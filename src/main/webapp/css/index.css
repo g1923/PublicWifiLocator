@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: left;
+}
+
+form {
+    margin: 1rem 0; /* 상하 마진 10px */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* 테이블 경계선 겹치지 않게 설정 */
+}
+
+th {
+    background-color: #4CAF50; /* 초록색 배경 */
+    color: white; /* 흰색 글씨 */
+    padding: 10px;
+}
+
+td {
+    border: 1px solid white; /* 흰색 테이블 선 */
+    padding: 10px;
+    text-align: center; /* 중앙 정렬 */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* 짝수 행에 밝은 배경 색 추가 */
+}
